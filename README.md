@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![TalhaTZA](https://circleci.com/gh/TalhaTZA/cloud-devops-microservices.svg?style=styled)](https://app.circleci.com/pipelines/github/TalhaTZA/cloud-devops-microservices)
 
 ## Project Overview
 
@@ -17,7 +17,6 @@ Your project goal is to operationalize this working, machine learning microservi
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
@@ -40,3 +39,13 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Description of Files  
+
+1. .circleci folder for running builds on circleci.
+2. model_data folder containing model files.
+3. output text files folder containing outputs text files after running docker and kubernetes respectively.
+4. app.py file containing api code for python
+5. Dockerfile for building docker image
+6. Makefile for automating linux commands
+7. bash files for easier execution of multiple linux commands for running docker , kubernetes , uploading to docker and making predictions.

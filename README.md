@@ -1,4 +1,4 @@
-[![TalhaTZA](https://circleci.com/gh/TalhaTZA/cloud-devops-microservices.svg?style=shield)](https://app.circleci.com/pipelines/github/TalhaTZA/cloud-devops-microservices)
+[![TalhaTZA](https://circleci.com/gh/TalhaTZA/cloud-devops-microservices.svg?style=svg)](https://app.circleci.com/pipelines/github/TalhaTZA/cloud-devops-microservices)
 
 ## Project Overview
 
